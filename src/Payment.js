@@ -98,8 +98,9 @@ function Payment() {
           </div>
           <div className="payment__address">
             <p>{user?.email}</p>
-            <p>123 React Lane</p>
-            <p>Pejala PPU</p>
+            <p>L-317A sector-12</p>
+            <p>Pratap Vihar</p>
+            <p>Ghaziabad</p>
           </div>
         </div>
 
@@ -145,7 +146,7 @@ function Payment() {
                   value={getBasketTotal(basket)}
                   displayType={"text"}
                   thousandSeparator={true}
-                  prefix={"$"}
+                  prefix={"₹"}
                 />
 
                 <button disabled={processing || disabled || succeeded}>

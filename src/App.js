@@ -17,7 +17,7 @@ const promise = loadStripe(
 );
 
 function App() {
-  const [{}, dispatch] = useStateValue();
+  const [dispatch] = useStateValue();
 
   useEffect(() => {
     //will only run once when the app component loads...
@@ -40,14 +40,19 @@ function App() {
         });
       }
     });
-  }, []);
+  });
 
   return (
     //BEM
     <BrowserRouter>
       <div className="App">
         <Routes>
-          <Route path="/login" element={<Login />} />
+          <Route 
+            path="/login" 
+            element={
+              <Login />
+            } 
+          />
           <Route
             path="/orders"
             element={
