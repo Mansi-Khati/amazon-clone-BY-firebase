@@ -14,7 +14,7 @@ function Home() {
         <div className="home__row">
           <Product
             id="86234982"
-            title="Colleen Hoover's Nocember"
+            title="Colleen Hoover's November"
             image="https://images-na.ssl-images-amazon.com/images/I/61xkvfPVupL._AC_UL210_SR195,210_.jpg"
             price={1199}
             rating={5}
