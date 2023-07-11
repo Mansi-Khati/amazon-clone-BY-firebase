@@ -70,7 +70,7 @@ function Login() {
           </button>
         </form>
         <p>
-          By sign-in you aggree to AMAZON FAKE CLONE Condition of Use & Sale.
+          By sign-in you aggree to AMAZON CLONE Condition of Use & Sale.
           Please see our privacy notice., our Cookies Notice and our
           Interest-Based Ads Notice.
         </p>
